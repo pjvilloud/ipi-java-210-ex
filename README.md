@@ -12,7 +12,7 @@ Tout d'abord, créer la classe ```Main``` et y ajouter la méthode ```main``` en
 3. Déclarer au niveau de la classe ```Sudoku```, un tableau à deux dimensions pouvant contenir des éléments de type ```short```, nommée ```sudokuAResoudre```.
 4. Créer une méthode ```getSudokuAResoudre``` ne prenant aucun argument et retournant le tableau ```sudokuAResoudre```. Créer une méthode ```setSudokuAResoudre``` prenant en argument un tableau de ```short``` à deux dimensions et qui affecte cet argument au tableau ```sudokuAResoudre```.
 5. Dans la méthode ```Sudoku()```, initialiser le tableau pour qu'il puisse contenir tous les éléments du sudoku (9 par 9).
-6. Dans la méthode ```ligneSaisieEstCoherente```, tester le paramètre ```ligneSaisie``` pour vérifier que la ligne ne doit pas être nulle ou vide, ou remplie d'espaces.
+6. Dans la méthode ```ligneSaisieEstCoherente```, tester le paramètre ```ligneSaisie``` pour vérifier que la ligne ne soit pas nulle ou vide, ou remplie d'espaces.
 7. Dans la méthode ```ligneSaisieEstCoherente```, tester le paramètre ```ligneSaisie``` pour vérifier qu'il fait 3 caractères.
 8. Dans la méthode ```ligneSaisieEstCoherente```, tester le paramètre ```ligneSaisie``` pour vérifier que le premier caractère est un chiffre entre 0 et 8.
 9. Dans la méthode ```ligneSaisieEstCoherente```, tester le paramètre ```ligneSaisie``` pour vérifier que le deuxième caractère est un chiffre entre 0 et 8.
